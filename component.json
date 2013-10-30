@@ -3,7 +3,7 @@
   "repo": "popomore/base",
   "description": "",
   "version": "1.1.1",
-  "scripts": ["base.js"],
+  "scripts": ["src/base.js"],
   "dependencies": {
     "popomore/class": "component"
   },
