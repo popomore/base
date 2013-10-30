@@ -1,5 +1,3 @@
-define(function(require, exports) {
-
   // Attribute
   // -----------------
   // Thanks to:
@@ -500,5 +498,3 @@ define(function(require, exports) {
     // 其他情况返回 false, 以避免误判导致 change 事件没发生
     return false;
   }
-
-});

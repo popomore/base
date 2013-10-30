@@ -1,5 +1,3 @@
-define(function(require, exports, module) {
-
   // Base
   // ---------
   // Base 是一个基础类，提供 Class、Events、Attrs 和 Aspect 支持。
@@ -51,4 +49,3 @@ define(function(require, exports, module) {
   function ucfirst(str) {
     return str.charAt(0).toUpperCase() + str.substring(1);
   }
-});

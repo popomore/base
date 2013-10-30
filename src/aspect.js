@@ -1,5 +1,3 @@
-define(function(require, exports) {
-
   // Aspect
   // ---------------------
   // Thanks to:
@@ -69,5 +67,3 @@ define(function(require, exports) {
 
     this[methodName].__isAspected = true;
   }
-
-});
