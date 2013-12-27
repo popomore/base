@@ -8,6 +8,7 @@
     "popomore/events": "*"
   },
   "keywords": ["infrastructure"],
+  "main": "src/base.js",
   "scripts": ["src/base.js", "src/attribute.js", "src/aspect.js"],
   "license": "MIT"
 }
