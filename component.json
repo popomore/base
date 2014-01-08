@@ -1,5 +1,5 @@
 {
-  "name": "base",
+  "name": "arale-base",
   "repo": "popomore/base",
   "description": "Base 是一个基础类，提供 Class、Events、Attribute 和 Aspect 支持。",
   "version": "1.1.1",
@@ -7,8 +7,14 @@
     "popomore/class": "*",
     "popomore/events": "*"
   },
-  "keywords": ["infrastructure"],
+  "keywords": [
+    "infrastructure"
+  ],
   "main": "src/base.js",
-  "scripts": ["src/base.js", "src/attribute.js", "src/aspect.js"],
+  "scripts": [
+    "src/base.js",
+    "src/attribute.js",
+    "src/aspect.js"
+  ],
   "license": "MIT"
 }

@@ -2,8 +2,8 @@
 // ---------
 // Base 是一个基础类，提供 Class、Events、Attrs 和 Aspect 支持。
 
-var Class = require('class');
-var Events = require('events');
+var Class = require('arale-class');
+var Events = require('arale-events');
 var Aspect = require('./aspect');
 var Attribute = require('./attribute');
 

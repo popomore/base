@@ -17,10 +17,10 @@
         "url": "https://github.com/aralejs/base/issues"
     },
     "spm": {
-        "alias": {
-            "class": "arale/class/1.1.0/class",
-            "events": "arale/events/1.1.0/events"
-        },
-        "output": ["base.js"]
+        "main": "src/base.js",
+        "dependencies": {
+            "arale-class": "1.1.0",
+            "arale-events": "1.1.0"
+        }
     }
 }
